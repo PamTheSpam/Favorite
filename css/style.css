@@ -1,0 +1,89 @@
+body {
+  background-color: #999966; 
+}
+
+body {
+  background-image: url("76Yw.gif");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main {
+  padding-top: 40px;
+  
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 2px solid #3B3A3A;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper a {
+  padding-top: 20px;
+  color: #cccccc;
+  text-decoration: none;
+  font-size: larger;
+  font-family:courier;
+}
+
+.nav-link-wrapper a:hover {
+  transition: 0.1s;
+  border-bottom: 1px solid #cccccc;
+  color: #cccccc;
+}
+
+.brand {
+  color: #cccccc;
+  font-size: larger;
+}
+
+iframe
+{
+  width: 274px;
+  height:154px;
+  padding: 7px;
+
+}
+
+.music-title {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+.music-wrapper {
+  display: flex;
+  margin: auto;
+  padding: auto;
+}
+
+
+
+.music {
+  background-color: #524F4F;
+  margin-top: 5%;
+  width: 47%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  
+}
+
+.music-content-wrapper {
+  position: relative;
+}
